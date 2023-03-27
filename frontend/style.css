@@ -1,1 +1,70 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #138073;
+  font-family: Poppins;
+}
+
+body {
+  background-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  }
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+  padding: 100px 0 20px 0;
+  }
+
+   @media (max-width: 520px) {
+    h1 {
+      font-size: 24px;
+    }
+  }
+  
+.please {
+  font-weight: light;
+  font-size: 16px;
+  max-width: 520px;
+  height: auto;
+  background-color: #fff;
+  padding: 20px
+}
+
+ /* width of element is 100% of viewport when viewport is smaller than 520px; */
+@media (max-width: 520px) {
+  .please {
+    width: 100%;
+  }
+}
+
+p {
+  font-weight: medium;
+  padding: 0 0 20px 0;
+}
+
+.inputfield {
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+}
+ input {
+  font-weight: regular;
+  font-size: 16px;
+  height: 64px;
+  width: 100%;
+  border: 1px solid #999;
+  color: #3b3b3b;
+  padding: 0 0 0 20px;
+}
+
+/* width of element is 100%-40px of viewport when viewport is smaller than 520px in this case the distance between the viewport's left and the element's left side is 20px; */
+@media (max-width: 520px) {
+  .inputfield {
+    width: 100%-40px;
+  }
+}
