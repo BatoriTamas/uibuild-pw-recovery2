@@ -15,7 +15,7 @@ body {
   }
 
 h1 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   padding: 100px 0 20px 0;
   }
@@ -27,7 +27,7 @@ h1 {
   }
   
 .please {
-  font-weight: light;
+  font-weight: 300;
   font-size: 16px;
   max-width: 520px;
   height: auto;
@@ -43,7 +43,7 @@ h1 {
 }
 
 p {
-  font-weight: medium;
+  font-weight: 500;
   padding: 0 0 20px 0;
 }
 
@@ -53,7 +53,7 @@ p {
   align-items:flex-start;
 }
  input {
-  font-weight: regular;
+  font-weight: 400;
   font-size: 16px;
   height: 64px;
   width: 100%;
